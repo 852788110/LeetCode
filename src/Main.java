@@ -152,16 +152,21 @@ public class Main {
         System.out.println(minStack.top());
         System.out.println(minStack.getMin());*/
 
-        ROP2 rop=new ROP2();
+        /*ROP2 rop=new ROP2();
         String s="(()())(())";
         s=rop.removeOuterParentheses(s);
-        System.out.println(s);
+        System.out.println(s);*/
 
        /*float a=4;
        test2(a);
        System.out.println(a);
        test3(a);
         System.out.println(a);*/
+
+       Rain rain=new Rain();
+       int[] height={3,1,0,2};
+       int sum=rain.trap(height);
+       System.out.println(sum);
     }
 }
 

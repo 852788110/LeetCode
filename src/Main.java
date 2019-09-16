@@ -163,10 +163,11 @@ public class Main {
        test3(a);
         System.out.println(a);*/
 
-       Rain rain=new Rain();
+       /*Rain rain=new Rain();
        int[] height={3,1,0,2};
        int sum=rain.trap(height);
-       System.out.println(sum);
+       System.out.println(sum);*/
+
     }
 }
 

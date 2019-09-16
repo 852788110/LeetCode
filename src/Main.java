@@ -168,7 +168,7 @@ public class Main {
        int sum=rain.trap(height);
        System.out.println(sum);*/
 
-       ThreeSum threeSum=new ThreeSum();
+       ThreeSum1 threeSum=new ThreeSum1();
        int[] nums={-1,0,1,2,-1,-4};
         List<List<Integer>> results=null;
        results=threeSum.threeSum(nums);

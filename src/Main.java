@@ -168,11 +168,28 @@ public class Main {
        int sum=rain.trap(height);
        System.out.println(sum);*/
 
-       ThreeSum1 threeSum=new ThreeSum1();
+       /*ThreeSum1 threeSum=new ThreeSum1();
        int[] nums={-1,0,1,2,-1,-4};
         List<List<Integer>> results=null;
        results=threeSum.threeSum(nums);
         for (List<Integer> s:results) {
+            for (Integer t:s) {
+                System.out.print(t+" ");
+            }
+            System.out.println();
+        }*/
+
+       TreeNode root1=new TreeNode(3);
+       root1.left=new TreeNode(9);
+       root1.right=new TreeNode(20);
+       TreeNode temp=root1.right;
+       temp.left=new TreeNode(15);
+       temp.right=new TreeNode(7);
+
+       ZigzagLevelOrder zlo=new ZigzagLevelOrder();
+        List<List<Integer>> ans=null;
+       ans=zlo.zigzagLevelOrder(root1);
+        for (List<Integer> s:ans) {
             for (Integer t:s) {
                 System.out.print(t+" ");
             }

@@ -195,10 +195,23 @@ public class Main {
             }
             System.out.println();
         }*/
-       FindKthLargest fk=new FindKthLargest();
+       /*FindKthLargest fk=new FindKthLargest();
        int[] nums={3,2,3,1,2,4,5,5,6};
        int ans=fk.findKthLargest(nums,4);
-       System.out.println(ans);
+       System.out.println(ans);*/
+
+        TreeNode root1=new TreeNode(3);
+        root1.left=new TreeNode(9);
+        root1.right=new TreeNode(20);
+        TreeNode temp=root1.right;
+        temp.left=new TreeNode(15);
+        temp.right=new TreeNode(7);
+
+        PreorderTraversal pt=new PreorderTraversal();
+        List<Integer> ans=pt.preorderTraversal(root1);
+        for (Integer s:ans) {
+            System.out.print(s+" ");
+        }
     }
 }
 

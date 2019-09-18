@@ -200,7 +200,7 @@ public class Main {
        int ans=fk.findKthLargest(nums,4);
        System.out.println(ans);*/
 
-        TreeNode root1=new TreeNode(3);
+        /*TreeNode root1=new TreeNode(3);
         root1.left=new TreeNode(9);
         root1.right=new TreeNode(20);
         TreeNode temp=root1.right;
@@ -209,6 +209,14 @@ public class Main {
 
         PreorderTraversal pt=new PreorderTraversal();
         List<Integer> ans=pt.preorderTraversal(root1);
+        for (Integer s:ans) {
+            System.out.print(s+" ");
+        }*/
+
+        TopKFrequent te=new TopKFrequent();
+        int[] nums={1,1,1,2,2,3};
+        int k=2;
+        List<Integer> ans=te.topKFrequent(nums,k);
         for (Integer s:ans) {
             System.out.print(s+" ");
         }

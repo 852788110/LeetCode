@@ -179,7 +179,7 @@ public class Main {
             System.out.println();
         }*/
 
-       TreeNode root1=new TreeNode(3);
+       /*TreeNode root1=new TreeNode(3);
        root1.left=new TreeNode(9);
        root1.right=new TreeNode(20);
        TreeNode temp=root1.right;
@@ -194,7 +194,11 @@ public class Main {
                 System.out.print(t+" ");
             }
             System.out.println();
-        }
+        }*/
+       FindKthLargest fk=new FindKthLargest();
+       int[] nums={3,2,3,1,2,4,5,5,6};
+       int ans=fk.findKthLargest(nums,4);
+       System.out.println(ans);
     }
 }
 

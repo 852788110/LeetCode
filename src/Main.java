@@ -221,10 +221,15 @@ public class Main {
             System.out.print(s+" ");
         }*/
 
-        CanJump CJ=new CanJump();
+        /*CanJump CJ=new CanJump();
         int[] nums={3,2,1,0,4};
         boolean can=CJ.canJump(nums);
-        System.out.print(can);
+        System.out.print(can);*/
+
+        MaxProfit_1 maxprofit=new MaxProfit_1();
+        int[] nums={7,6,4,3,1};
+        int ans=maxprofit.maxProfit(nums);
+        System.out.println(ans);
     }
 }
 

@@ -213,13 +213,18 @@ public class Main {
             System.out.print(s+" ");
         }*/
 
-        TopKFrequent te=new TopKFrequent();
+        /*TopKFrequent te=new TopKFrequent();
         int[] nums={1,1,1,2,2,3};
         int k=2;
         List<Integer> ans=te.topKFrequent(nums,k);
         for (Integer s:ans) {
             System.out.print(s+" ");
-        }
+        }*/
+
+        CanJump CJ=new CanJump();
+        int[] nums={3,2,1,0,4};
+        boolean can=CJ.canJump(nums);
+        System.out.print(can);
     }
 }
 

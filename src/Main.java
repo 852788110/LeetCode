@@ -226,10 +226,33 @@ public class Main {
         boolean can=CJ.canJump(nums);
         System.out.print(can);*/
 
-        MaxProfit_1 maxprofit=new MaxProfit_1();
+        /*MaxProfit_1 maxprofit=new MaxProfit_1();
         int[] nums={7,6,4,3,1};
         int ans=maxprofit.maxProfit(nums);
-        System.out.println(ans);
+        System.out.println(ans);*/
+
+        /*CanCompleteCircuit CC=new CanCompleteCircuit();
+        int[] gas={2};
+        int[] cost={2};
+        System.out.println(CC.canCompleteCircuit(gas,cost));*/
+
+        ListNode first=new ListNode(4);
+        ListNode rear=first;
+        rear.next=new ListNode(2);
+        rear=rear.next;
+
+        rear.next=new ListNode(1);
+        rear=rear.next;
+
+        rear.next=new ListNode(3);
+        rear=rear.next;
+
+        SortList sl=new SortList();
+        first=sl.sortList(first);
+        while(first!=null){
+            System.out.print(first.val+" ");
+            first=first.next;
+        }
     }
 }
 

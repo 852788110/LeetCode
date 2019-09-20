@@ -247,7 +247,7 @@ public class Main {
         rear.next=new ListNode(3);
         rear=rear.next;
 
-        SortList sl=new SortList();
+        SortList1 sl=new SortList1();
         first=sl.sortList(first);
         while(first!=null){
             System.out.print(first.val+" ");

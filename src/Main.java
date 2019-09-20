@@ -236,7 +236,7 @@ public class Main {
         int[] cost={2};
         System.out.println(CC.canCompleteCircuit(gas,cost));*/
 
-        ListNode first=new ListNode(4);
+        /*ListNode first=new ListNode(4);
         ListNode rear=first;
         rear.next=new ListNode(2);
         rear=rear.next;
@@ -252,7 +252,16 @@ public class Main {
         while(first!=null){
             System.out.print(first.val+" ");
             first=first.next;
+        }*/
+
+        PancakeSort ps=new PancakeSort();
+        int[] nums={2,1,3};
+        List<Integer> ans=null;
+        ans=ps.pancakeSort(nums);
+        for (Integer s:ans) {
+            System.out.print(s+" ");
         }
+
     }
 }
 

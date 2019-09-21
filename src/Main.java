@@ -254,14 +254,38 @@ public class Main {
             first=first.next;
         }*/
 
-        PancakeSort ps=new PancakeSort();
+        /*PancakeSort ps=new PancakeSort();
         int[] nums={2,1,3};
         List<Integer> ans=null;
         ans=ps.pancakeSort(nums);
         for (Integer s:ans) {
             System.out.print(s+" ");
-        }
+        }*/
 
+        /*ListNode first=new ListNode(4);
+        ListNode rear=first;
+        rear.next=new ListNode(2);
+        rear=rear.next;
+
+        rear.next=new ListNode(1);
+        rear=rear.next;
+
+        rear.next=new ListNode(3);
+        rear=rear.next;
+
+        InsertionSortList IS=new InsertionSortList();
+        first=IS.insertionSortList(first);
+        while(first!=null){
+            System.out.print(first.val+" ");
+            first=first.next;
+        }*/
+
+        SortColors SC=new SortColors();
+        int[] nums={2,0,2,1,1,0};
+        SC.sortColors(nums);
+        for (int s:nums) {
+            System.out.print(s+" ");
+        }
     }
 }
 

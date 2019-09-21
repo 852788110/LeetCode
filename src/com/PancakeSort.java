@@ -19,10 +19,6 @@ public class PancakeSort {
             ans.add(end+1);
             end--;
         }
-        for (Integer s:A) {
-            System.out.print(s+" ");
-        }
-        System.out.println();
         return ans;
     }
 

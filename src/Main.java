@@ -280,15 +280,46 @@ public class Main {
             first=first.next;
         }*/
 
-        SortColors SC=new SortColors();
+        /*SortColors SC=new SortColors();
         int[] nums={2,0,2,1,1,0};
         SC.sortColors(nums);
         for (int s:nums) {
             System.out.print(s+" ");
-        }
+        }*/
+
+        /*int N=5000000;
+        List<String> d=new ArrayList<>();
+        d.add("apple");
+        d.add("ewaf");
+        d.add("awefawfwaf");
+        d.add("awef");
+        d.add("awefe");
+        d.add("ewafeffewafewf");
+       for (int i=0;i<N;i++){
+           d.add(i+"sfjwlfnlk"+i+"awef");
+       }
+
+        long startTime=System.currentTimeMillis();
+        FindLongestWord FW=new FindLongestWord();
+        String ans=FW.findLongestWord("aewfafwafjlwajflwajflwafj",d);
+       // System.out.print(ans);
+        long endTime=System.currentTimeMillis();
+        System.out.print((endTime-startTime)+"\n");
+
+        startTime=System.currentTimeMillis();
+        FindLongestWord1 FW1=new FindLongestWord1();
+        ans=FW.findLongestWord("aewfafwafjlwajflwajflwafj",d);
+        //System.out.print(ans);
+        endTime=System.currentTimeMillis();
+        System.out.print((endTime-startTime)+"\n");*/
+
+        LargestNumber ln=new LargestNumber();
+        int[] nums={3,30,34,5,9};
+        ln.largestNumber(nums);
     }
 }
-
+/*"aewfafwafjlwajflwajflwafj"
+["apple","ewaf","awefawfwaf","awef","awefe","ewafeffewafewf"]*/
 
 
 

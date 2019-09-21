@@ -315,7 +315,8 @@ public class Main {
 
         LargestNumber ln=new LargestNumber();
         int[] nums={3,30,34,5,9};
-        ln.largestNumber(nums);
+        String ans=ln.largestNumber(nums);
+        System.out.print(ans);
     }
 }
 /*"aewfafwafjlwajflwajflwafj"

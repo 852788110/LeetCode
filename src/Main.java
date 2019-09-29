@@ -1,4 +1,5 @@
 import com.*;
+import sun.rmi.runtime.Log;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -313,10 +314,66 @@ public class Main {
         endTime=System.currentTimeMillis();
         System.out.print((endTime-startTime)+"\n");*/
 
-        LargestNumber ln=new LargestNumber();
+        /*LargestNumber ln=new LargestNumber();
         int[] nums={3,30,34,5,9};
         String ans=ln.largestNumber(nums);
-        System.out.print(ans);
+        System.out.print(ans);*/
+
+        /*long startTime=System.currentTimeMillis();
+        int[] prices={0,1,5,8,9,10,17,17,20,24,30,30,41,42,43,44,45,46,50,51,52,53,60,71,72};
+        Memoized_Cut_Rod_Aux mcra=new Memoized_Cut_Rod_Aux();
+        int sum=mcra.cut_rod_1(prices,20);
+        System.out.print(sum);
+        long endTime=System.currentTimeMillis();
+        System.out.println("\n"+(endTime-startTime));
+
+         startTime=System.currentTimeMillis();
+         sum=mcra.cut_rod(prices,20);
+            System.out.print(sum);
+         endTime=System.currentTimeMillis();
+        System.out.println("\n"+(endTime-startTime));*/
+
+        /*int N=10000;
+        int[] nums=new int[N];
+        for (int i=0;i<N;i++){
+            nums[i]=(int)(Math.random()*100);
+        }
+        long startTime=System.currentTimeMillis();
+        Rob rob=new Rob();
+        System.out.println(rob.rob(nums));
+        long endTime=System.currentTimeMillis();
+        System.out.println("\n"+(endTime-startTime));*/
+
+        /*long startTime=System.currentTimeMillis();
+        ClimbStairs CS=new ClimbStairs();
+        System.out.println(CS.climbStairs(43));
+        long endTime=System.currentTimeMillis();
+        System.out.println((endTime-startTime));
+
+        startTime=System.currentTimeMillis();
+        System.out.println(CS.climbStairs1(43));
+        endTime=System.currentTimeMillis();
+        System.out.println((endTime-startTime));*/
+
+        /*MinCostClimbingStairs MS=new MinCostClimbingStairs();
+        int[] cost={1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
+        System.out.println(MS.minCostClimbingStairs(cost));*/
+
+        /*CountBits cb=new CountBits();
+        int[] res=cb.countBits(15);
+        for (int s:res){
+            System.out.print(s+" ");
+        }*/
+
+        /*int[][] grid={{1,3,1},{1,5,1},{4,2,1}};
+        MinPathSum pathSum=new MinPathSum();
+        int sum=pathSum.minPathSum(grid);
+        System.out.println(sum);*/
+
+        ConstructMaximumBinaryTree cm=new ConstructMaximumBinaryTree();
+        int[] nums={3,2,1,6,0,5};
+        TreeNode t=cm.constructMaximumBinaryTree(nums);
+        System.out.println(t.left);
     }
 }
 /*"aewfafwafjlwajflwajflwafj"

@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b93ac78f-4a13-4ac7-8be7-c7f7ebdd0129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/AllPossibleFBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ConstructMaximumBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/CountBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Memoized_Cut_Rod_Aux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/MinCostClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/MinPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Rob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/LargestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/LargestNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/AllPossibleFBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/AllPossibleFBT.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +46,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/AllPossibleFBT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="349">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,10 +132,11 @@
         <option value="$PROJECT_DIR$/src/com/MinPathSum.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ConstructMaximumBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/AllPossibleFBT.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="269" />
     <option name="y" value="43" />
     <option name="width" value="1098" />
@@ -260,12 +253,12 @@
       <workItem from="1569039267901" duration="14062000" />
       <workItem from="1569553682240" duration="8638000" />
       <workItem from="1569728076445" duration="4748000" />
-      <workItem from="1569733179748" duration="614000" />
+      <workItem from="1569733179748" duration="4141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129969000" />
+    <option name="totallyTimeSpent" value="133496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -910,8 +903,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/AllPossibleFBT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="349">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

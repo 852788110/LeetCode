@@ -370,10 +370,21 @@ public class Main {
         int sum=pathSum.minPathSum(grid);
         System.out.println(sum);*/
 
-        ConstructMaximumBinaryTree cm=new ConstructMaximumBinaryTree();
+        /*ConstructMaximumBinaryTree cm=new ConstructMaximumBinaryTree();
         int[] nums={3,2,1,6,0,5};
         TreeNode t=cm.constructMaximumBinaryTree(nums);
-        System.out.println(t.left);
+        System.out.println(t.left);*/
+
+        TreeNode node=new TreeNode(1);
+        node.right=new TreeNode(0);
+        TreeNode temp1=new TreeNode(0);
+        node.right.left=temp1;
+        temp1=node.right;
+        temp1.right=new TreeNode(1);
+
+        PruneTree pt=new PruneTree();
+        node=pt.pruneTree(node);
+        System.out.println("hello");
     }
 }
 /*"aewfafwafjlwajflwajflwafj"

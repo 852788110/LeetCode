@@ -375,7 +375,7 @@ public class Main {
         TreeNode t=cm.constructMaximumBinaryTree(nums);
         System.out.println(t.left);*/
 
-        TreeNode node=new TreeNode(1);
+        /*TreeNode node=new TreeNode(1);
         node.right=new TreeNode(0);
         TreeNode temp1=new TreeNode(0);
         node.right.left=temp1;
@@ -384,7 +384,9 @@ public class Main {
 
         PruneTree pt=new PruneTree();
         node=pt.pruneTree(node);
-        System.out.println("hello");
+        System.out.println("hello");*/
+
+
     }
 }
 /*"aewfafwafjlwajflwajflwafj"

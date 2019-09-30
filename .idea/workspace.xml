@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b93ac78f-4a13-4ac7-8be7-c7f7ebdd0129" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/InsertIntoBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/InsertIntoBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BSTIterator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +43,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/InsertIntoBST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="65">
               <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/BSTIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="31" selection-end-column="19" />
+              <folding>
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Palindromic.java" />
         <option value="$PROJECT_DIR$/src/com/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/com/TwoSum2.java" />
         <option value="$PROJECT_DIR$/src/com/Parenthesis.java" />
@@ -133,10 +146,11 @@
         <option value="$PROJECT_DIR$/src/com/PruneTree.java" />
         <option value="$PROJECT_DIR$/src/com/InsertIntoBST.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/BSTIterator.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="269" />
     <option name="y" value="43" />
     <option name="width" value="1098" />
@@ -254,12 +268,12 @@
       <workItem from="1569553682240" duration="8638000" />
       <workItem from="1569728076445" duration="4748000" />
       <workItem from="1569733179748" duration="6100000" />
-      <workItem from="1569820192128" duration="6104000" />
+      <workItem from="1569820192128" duration="8158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141559000" />
+    <option name="totallyTimeSpent" value="143613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -509,7 +523,6 @@
     <SUITE FILE_PATH="coverage/LeetCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1568949664084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/MergeKLists.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Convert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -915,6 +928,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BSTIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

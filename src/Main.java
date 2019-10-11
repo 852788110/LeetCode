@@ -386,9 +386,52 @@ public class Main {
         node=pt.pruneTree(node);
         System.out.println("hello");*/
 
+        /*SingleNumber sn=new SingleNumber();
+        int[] nums={1,2,1,3,2,5};
+        int[] answer=sn.singleNumber(nums);
+        for (int s:answer) {
+            System.out.println(s+" ");
+        }*/
 
+        /*
+        String[] words={"abcw","baz","foo","bar","xtfn","abcdef"};
+        MaxProduct mp=new MaxProduct();
+        System.out.println(mp.maxProduct(words));
+        */
+
+        /*int[] nums={-10, -3, 0, 5, 9};
+        ListNode head=new ListNode(nums[0]);
+        ListNode node=head.next,pre=head;
+        for (int i=1;i<nums.length;i++){
+            node=new ListNode(nums[i]);
+            pre.next=node;
+            pre=node;
+        }
+        node=head;
+        while(node!=null){
+            System.out.print(node.val+" ");
+            node=node.next;
+        }
+
+        SortedListToBST SB=new SortedListToBST();
+        TreeNode tree=SB.sortedListToBST(head);
+        System.out.println("wocaoni");*/
+
+        TreeNode root=new TreeNode(1);
+        root.left=new TreeNode(2);
+        root.right=new TreeNode(5);
+        TreeNode node=root.left;
+        node.left=new TreeNode(3);
+        node.right=new TreeNode(4);
+        node=root.right;
+        node.right=new TreeNode(6);
+
+        Flatten fl=new Flatten();
+        fl.flatten(root);
+        System.out.println("Hello world");
     }
 }
+
 /*"aewfafwafjlwajflwajflwafj"
 ["apple","ewaf","awefawfwaf","awef","awefe","ewafeffewafewf"]*/
 

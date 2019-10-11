@@ -417,7 +417,7 @@ public class Main {
         TreeNode tree=SB.sortedListToBST(head);
         System.out.println("wocaoni");*/
 
-        TreeNode root=new TreeNode(1);
+        /*TreeNode root=new TreeNode(1);
         root.left=new TreeNode(2);
         root.right=new TreeNode(5);
         TreeNode node=root.left;
@@ -428,6 +428,11 @@ public class Main {
 
         Flatten fl=new Flatten();
         fl.flatten(root);
+        System.out.println("Hello world");*/
+
+        int[] inorder={9,3,15,20,7},postorder={9,15,7,20,3};
+        BuildTree bt=new BuildTree();
+        bt.buildTree(inorder,postorder);
         System.out.println("Hello world");
     }
 }

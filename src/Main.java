@@ -430,10 +430,17 @@ public class Main {
         fl.flatten(root);
         System.out.println("Hello world");*/
 
-        int[] inorder={9,3,15,20,7},postorder={9,15,7,20,3};
+        /*int[] inorder={9,3,15,20,7},postorder={9,15,7,20,3};
         BuildTree bt=new BuildTree();
         bt.buildTree(inorder,postorder);
-        System.out.println("Hello world");
+        System.out.println("Hello world");*/
+
+        String[] grid={
+                "/\\",
+                "\\/"
+        };
+        RegionsBySlashes rs=new RegionsBySlashes();
+        System.out.println(rs.regionsBySlashes(grid));
     }
 }
 

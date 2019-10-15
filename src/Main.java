@@ -435,12 +435,38 @@ public class Main {
         bt.buildTree(inorder,postorder);
         System.out.println("Hello world");*/
 
-        String[] grid={
+        /*String[] grid={
                 "/\\",
                 "\\/"
         };
         RegionsBySlashes rs=new RegionsBySlashes();
-        System.out.println(rs.regionsBySlashes(grid));
+        System.out.println(rs.regionsBySlashes(grid));*/
+
+        /*int N=14;
+        System.out.println((int)Math.sqrt(N));*/
+
+        /*NumSquares ns=new NumSquares();
+        int n=10;
+        System.out.println(ns.numSquares(n));*/
+
+        /*int n=13;
+        NumSquares ns=new NumSquares();
+        System.out.println(ns.numSquares(n));*/
+
+        /*int[][] M={
+                {1,1,0},{1,1,0},{0,0,1}
+        };
+        FindCircleNum fc=new FindCircleNum();
+        System.out.println(fc.findCircleNum(M));*/
+
+        /*int[][] edges={
+                {9,10},{5,8},{2,6},{1,5},{3,8},{4,9},{8,10},{4,10},{6,8},{7,9}
+        };
+        FindRedundantConnection fr=new FindRedundantConnection();
+        int[] ans=fr.findRedundantConnection(edges);
+        for (int s:ans) {
+            System.out.print(s+" ");
+        }*/
     }
 }
 

@@ -467,6 +467,25 @@ public class Main {
         for (int s:ans) {
             System.out.print(s+" ");
         }*/
+
+        /*char[][] board={
+                *//*{'x','x','x','x'},{'x','o','o','x'},{'x','x','o','x'},{'x','o','x','x'}*//*
+                {'x','o','x','o','x','o'},{'o','x','o','x','o','x'},{'x','o','x','o','x','o'},{'o','x','o','x','o','x'}
+        };
+        Solve sl=new Solve();
+        sl.solve(board);
+        for (int i=0;i<board.length;i++){
+            for (int j=0;j<board[0].length;j++){
+                System.out.print(board[i][j]+" ");
+            }
+            System.out.println();
+        }*/
+
+        String[] equations={
+                "a==b","b!=a"
+        };
+        EquationsPossible ep=new EquationsPossible();
+        System.out.print(ep.equationsPossible(equations));
     }
 }
 

@@ -481,11 +481,95 @@ public class Main {
             System.out.println();
         }*/
 
-        String[] equations={
+        /*String[] equations={
                 "a==b","b!=a"
         };
         EquationsPossible ep=new EquationsPossible();
-        System.out.print(ep.equationsPossible(equations));
+        System.out.print(ep.equationsPossible(equations));*/
+
+        /*String s="dcab";
+        List<List<Integer>> pairs=new ArrayList<>();
+        List<Integer> pair1=new ArrayList<>();
+        pair1.add(0);
+        pair1.add(3);
+        List<Integer> pair2=new ArrayList<>();
+        pair2.add(1);
+        pair2.add(2);
+        pairs.add(pair1);
+        pairs.add(pair2);*/
+
+        /*SmallestStringWithSwaps sw=new SmallestStringWithSwaps();
+        String ans=sw.smallestStringWithSwaps(s,pairs);
+        System.out.println(ans);*/
+
+        /*List<List<Integer>> rooms=new ArrayList<>();
+        List<Integer> room1=new ArrayList<>();
+        room1.add(1);
+        List<Integer> room2=new ArrayList<>();
+        room2.add(2);
+        List<Integer> room3=new ArrayList<>();
+        room3.add(3);
+        List<Integer> room4=new ArrayList<>();
+        rooms.add(room1);
+        rooms.add(room2);
+        rooms.add(room3);
+        rooms.add(room4);
+        CanVisitAllRooms cv=new CanVisitAllRooms();
+        boolean canVist=cv.canVisitAllRooms(rooms);
+        System.out.println(canVist);*/
+
+        /*List<List<String>> equations=new ArrayList<>();
+        List<String> equation1=new ArrayList<>();
+        equation1.add("a");
+        equation1.add("b");
+        equations.add(equation1);
+
+        List<String> equation2=new ArrayList<>();
+        equation2.add("b");
+        equation2.add("c");
+        equations.add(equation2);
+
+        List<String> equation3=new ArrayList<>();
+        equation3.add("bc");
+        equation3.add("cd");
+        equations.add(equation3);
+
+        List<List<String>> queries=new ArrayList<>();
+        List<String> query=new ArrayList<>();
+        query.add("a");
+        query.add("c");
+        queries.add(query);
+
+        List<String> query1=new ArrayList<>();
+        query1.add("c");
+        query1.add("b");
+        queries.add(query1);
+
+        List<String> query2=new ArrayList<>();
+        query2.add("bc");
+        query2.add("cd");
+        queries.add(query2);
+
+        List<String> query3=new ArrayList<>();
+        query3.add("cd");
+        query3.add("bc");
+        queries.add(query3);
+
+        double[] values={1.5,2.5,5.0};
+
+        CalcEquation1 calc=new CalcEquation1();
+        double[] ans=calc.calcEquation(equations,values,queries);
+        for (double a:ans){
+            System.out.print(a+" ");
+        }*/
+
+        int nums=2;
+        int[][] prerequisites={{0,1}};
+        FindOrder fo=new FindOrder();
+        int[] ans=fo.findOrder(nums,prerequisites);
+        for (int t:ans){
+            System.out.print(t+" ");
+        }
     }
 }
 

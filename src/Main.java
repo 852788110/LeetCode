@@ -563,12 +563,30 @@ public class Main {
             System.out.print(a+" ");
         }*/
 
-        int nums=2;
+        /*int nums=2;
         int[][] prerequisites={{0,1}};
         FindOrder fo=new FindOrder();
         int[] ans=fo.findOrder(nums,prerequisites);
         for (int t:ans){
             System.out.print(t+" ");
+        }*/
+
+        /*int[][] times={
+                {2,1,1},{2,3,1},{3,4,1}
+        };
+        int N=4;
+        int K=2;
+        NetworkDelayTime nt=new NetworkDelayTime();
+        int sum=nt.networkDelayTime(times,N,K);
+        System.out.print(sum);*/
+
+        int[][] graph={
+                {1,2,3,4},{1,2},{3,4},{0,4},{}
+        };
+        EventualSafeNodes es=new EventualSafeNodes();
+        List<Integer> ans=es.eventualSafeNodes(graph);
+        for (int i:ans){
+            System.out.print(i+" ");
         }
     }
 }

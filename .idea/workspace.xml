@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93ac78f-4a13-4ac7-8be7-c7f7ebdd0129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/CalcEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/CalcEquation1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/CanFinish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/CanVisitAllRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/FindOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/MaxLevelSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SmallestStringWithSwaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CloneGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Digraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DirectedEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/EdgeWeightedDigraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/EventualSafeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/EventualSafeNodesSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/IndexMinPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/NetworkDelayTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/AccountsMerge.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,38 +39,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="568" selection-start-line="568" selection-end-line="568" />
+            <state relative-caret-position="100">
+              <caret line="583" column="45" selection-start-line="583" selection-start-column="45" selection-end-line="583" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/CanFinish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="51" column="9" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/FindOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/com/EventualSafeNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="-303">
+              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,15 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/SortList1.java" />
-        <option value="$PROJECT_DIR$/src/com/PancakeSort1.java" />
-        <option value="$PROJECT_DIR$/src/com/PancakeSort.java" />
-        <option value="$PROJECT_DIR$/src/com/InsertionSortList.java" />
-        <option value="$PROJECT_DIR$/src/com/SortColors.java" />
-        <option value="$PROJECT_DIR$/src/com/FindLongestWord.java" />
-        <option value="$PROJECT_DIR$/src/com/FindLongestWord1.java" />
-        <option value="$PROJECT_DIR$/src/com/LargestNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/Memoized_Cut_Rod_Aux.java" />
         <option value="$PROJECT_DIR$/src/com/Rob.java" />
         <option value="$PROJECT_DIR$/src/com/ClimbStairs.java" />
         <option value="$PROJECT_DIR$/src/com/MinCostClimbingStairs.java" />
@@ -147,14 +126,23 @@
         <option value="$PROJECT_DIR$/src/com/CalcEquation1.java" />
         <option value="$PROJECT_DIR$/src/com/UF.java" />
         <option value="$PROJECT_DIR$/src/com/CanFinish.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/FindOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/DirectedEdge.java" />
+        <option value="$PROJECT_DIR$/src/com/IndexMinPQ.java" />
+        <option value="$PROJECT_DIR$/src/com/EdgeWeightedDigraph.java" />
+        <option value="$PROJECT_DIR$/src/com/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/com/NetworkDelayTime.java" />
+        <option value="$PROJECT_DIR$/src/com/CloneGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/EventualSafeNodes.java" />
+        <option value="$PROJECT_DIR$/src/com/EventualSafeNodesSolution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="551" />
-    <option name="y" value="193" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-206" />
+    <option name="y" value="355" />
     <option name="width" value="1098" />
     <option name="height" value="735" />
   </component>
@@ -164,7 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,7 +175,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,11 +282,12 @@
       <workItem from="1571444204508" duration="3000" />
       <workItem from="1571450189742" duration="110000" />
       <workItem from="1571470982212" duration="10653000" />
+      <workItem from="1571535912882" duration="21476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232005000" />
+    <option name="totallyTimeSpent" value="253481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,9 +299,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.30454546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +311,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5013123" side_tool="true" weight="0.25757575" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3848684" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3848684" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37828946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -603,6 +593,12 @@
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/EventualSafeNodes.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/FindOrder.java</url>
           <line>60</line>
@@ -618,79 +614,6 @@
     <SUITE FILE_PATH="coverage/LeetCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1568949664084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/FindLongestWord1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/InsertionSortList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/SortColors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/FindLongestWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="99" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LargestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Memoized_Cut_Rod_Aux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
-          <folding>
-            <element signature="e#32010#32011#0" expanded="true" />
-            <element signature="e#32095#32096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Rob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CountBits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/MinCostClimbingStairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -957,21 +880,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/UF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/UF.java" />
     <entry file="file://$PROJECT_DIR$/src/com/CalcEquation1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -981,20 +890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/CanFinish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="568" selection-start-line="568" selection-end-line="568" />
+        <state relative-caret-position="893">
+          <caret line="51" column="9" selection-start-line="43" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1004,11 +901,125 @@
     <entry file="file://$PROJECT_DIR$/src/com/FindOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/EdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CloneGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/DirectedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/IndexMinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#5633#5634#0" expanded="true" />
+            <element signature="e#8401#8402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/NetworkDelayTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2777#2778#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <element signature="e#6382#6383#0" expanded="true" />
+            <element signature="e#6415#6416#0" expanded="true" />
+            <element signature="e#9122#9123#0" expanded="true" />
+            <element signature="e#9183#9184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="583" column="45" selection-start-line="583" selection-start-column="45" selection-end-line="583" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/EventualSafeNodesSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#317#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/EventualSafeNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
           </folding>
         </state>
       </provider>

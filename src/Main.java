@@ -580,13 +580,34 @@ public class Main {
         int sum=nt.networkDelayTime(times,N,K);
         System.out.print(sum);*/
 
-        int[][] graph={
+        /*int[][] graph={
                 {1,2,3,4},{1,2},{3,4},{0,4},{}
         };
         EventualSafeNodes es=new EventualSafeNodes();
         List<Integer> ans=es.eventualSafeNodes(graph);
         for (int i:ans){
             System.out.print(i+" ");
+        }*/
+
+        /*int[][] graph={
+                {1,3},{0,2},{1,3},{0,2}
+        };
+        IsBipartite isb=new IsBipartite();
+        boolean ans=isb.isBipartite(graph);
+        System.out.print(ans);*/
+
+        int[][] edges={
+                {0,1},{1,2},{2,3},{0,4},{4,5},{4,6},{6,7}
+        };
+        int[][] edges1={
+                {0,1},{0,2},{0,3},{3,4},{4,5}
+        };
+        int n=8;
+        int n2=6;
+        FindMinHeightTrees3 fh=new FindMinHeightTrees3();
+        List<Integer> ans=fh.findMinHeightTrees(n,edges);
+        for (int an:ans){
+            System.out.print(an+" ");
         }
     }
 }

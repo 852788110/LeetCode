@@ -596,7 +596,7 @@ public class Main {
         boolean ans=isb.isBipartite(graph);
         System.out.print(ans);*/
 
-        int[][] edges={
+        /*int[][] edges={
                 {0,1},{1,2},{2,3},{0,4},{4,5},{4,6},{6,7}
         };
         int[][] edges1={
@@ -608,6 +608,19 @@ public class Main {
         List<Integer> ans=fh.findMinHeightTrees(n,edges);
         for (int an:ans){
             System.out.print(an+" ");
+        }*/
+
+        int n1=5;
+        int[][] red1={
+                {0,1},{1,2},{2,3},{3,4}
+        };
+        int[][] blue1= {
+                {1,2},{2,3},{3,1}
+        };
+        ShortestAlternatingPaths sa=new ShortestAlternatingPaths();
+        int[] dist=sa.shortestAlternatingPaths(n1,red1,blue1);
+        for (int t:dist){
+            System.out.print(t+" ");
         }
     }
 }

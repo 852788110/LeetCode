@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93ac78f-4a13-4ac7-8be7-c7f7ebdd0129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/FindMinHeightTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/FindMinHeightTrees2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/FindMinHeightTrees3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/FindMinHeightTrees4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/IsBipartite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ShortestAlternatingPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TwoColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/EventualSafeNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/EventualSafeNodes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ShortestAlternatingPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ShortestAlternatingPaths.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +26,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2800">
+              <caret line="612" column="16" selection-start-line="612" selection-start-column="16" selection-end-line="612" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ShortestAlternatingPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="190">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/PruneTree.java" />
         <option value="$PROJECT_DIR$/src/com/InsertIntoBST.java" />
         <option value="$PROJECT_DIR$/src/com/BSTIterator.java" />
         <option value="$PROJECT_DIR$/src/SingleNumber.java" />
@@ -116,9 +123,10 @@
         <option value="$PROJECT_DIR$/src/com/IsBipartite.java" />
         <option value="$PROJECT_DIR$/src/com/FindMinHeightTrees.java" />
         <option value="$PROJECT_DIR$/src/com/FindMinHeightTrees2.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/FindMinHeightTrees3.java" />
         <option value="$PROJECT_DIR$/src/com/FindMinHeightTrees4.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ShortestAlternatingPaths.java" />
       </list>
     </option>
   </component>
@@ -267,12 +275,12 @@
       <workItem from="1571535912882" duration="21505000" />
       <workItem from="1571577140858" duration="321000" />
       <workItem from="1571647412382" duration="10185000" />
-      <workItem from="1571721654261" duration="5316000" />
+      <workItem from="1571721654261" duration="9471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269332000" />
+    <option name="totallyTimeSpent" value="273487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,7 +295,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.3181818" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.3181818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +304,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5013123" side_tool="true" weight="0.25757575" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3848684" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3848684" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37828946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -602,6 +610,12 @@
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>620</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/FindOrder.java</url>
           <line>60</line>
@@ -857,23 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DirectedEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/IndexMinPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -905,20 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/EventualSafeNodesSolution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-266">
@@ -934,13 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Cycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -994,16 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="607" column="55" selection-start-line="607" selection-start-column="55" selection-end-line="607" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/FindMinHeightTrees3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
@@ -1022,8 +988,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/FindMinHeightTrees4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        <state relative-caret-position="-1101">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/DirectedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2800">
+          <caret line="612" column="16" selection-start-line="612" selection-start-column="16" selection-end-line="612" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1032,8 +1042,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ShortestAlternatingPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -9,12 +9,12 @@ import java.util.Map;
 public class Main {
 
     //该方法用于给链表赋值
-    public static void convertList(int[] nums, TwoSum lists){
+    /*public static void convertList(int[] nums, TwoSum lists){
         int length=nums.length;
         for (int i=0;i<length;i++){
             lists.addNode(nums[i]);
         }
-    }
+    }*/
 
     //测试数组是值传递还是引用传递的方法
     public  static void test1(int[] a){
@@ -610,18 +610,88 @@ public class Main {
             System.out.print(an+" ");
         }*/
 
-        int n1=5;
+        /*int n1=5;
         int[][] red1={
                 {0,1},{1,2},{2,3},{3,4}
         };
         int[][] blue1= {
                 {1,2},{2,3},{3,1}
         };
-        ShortestAlternatingPaths sa=new ShortestAlternatingPaths();
+        ShortestAlternatingPaths1 sa=new ShortestAlternatingPaths1();
         int[] dist=sa.shortestAlternatingPaths(n1,red1,blue1);
         for (int t:dist){
             System.out.print(t+" ");
+        }*/
+
+        /*CountLetter cl=new CountLetter();
+        String str="PNEUMONOULTRAMICROSCOPICSILICOVOLCANOCONIOSIS";
+        int[] ans=cl.count(str);
+        int sum=0;
+        for (int i=0;i<ans.length;i++){
+            int t='A'+i;
+            char s=(char)t;
+            sum+=ans[i];
+            System.out.print(s+":"+ans[i]+" ");
         }
+        System.out.print("\n"+sum);*/
+
+        /*Trie tire=new Trie();
+        tire.insert("Trie");
+        tire.insert("insert");
+        tire.insert("search");
+        boolean contain=tire.search("searc");
+        boolean startWith=tire.startsWith("searc");
+        System.out.print(contain+"\n"+startWith);*/
+
+        /*MyCircularDeque md=new MyCircularDeque(3);
+        md.insertLast(1);
+        md.insertLast(2);
+        md.insertFront(3);
+        md.insertFront(4);
+        System.out.println(md.getRear());
+        System.out.println(md.isFull());
+        md.deleteLast();
+        md.insertFront(4);
+        System.out.println(md.getFront());*/
+
+        /*RandomizedSet rs=new RandomizedSet();
+        rs.insert(-1);
+        rs.remove(-2);
+        rs.insert(-2);
+        rs.getRandom();
+        rs.remove(-1);
+        rs.insert(-2);*/
+
+        /*int capacity=2;
+        LRUCache lrc=new LRUCache(capacity);
+        System.out.print(lrc.get(2)+" ");
+        lrc.put(2,6);
+        System.out.print(lrc.get(1)+" ");
+        lrc.put(1,5);
+        lrc.put(1,2);
+        System.out.print(lrc.get(1)+" ");
+        System.out.print(lrc.get(2)+" ");*/
+
+        WordDictionary1 wd=new WordDictionary1();
+        wd.addWord("ran");
+        wd.addWord("rune");
+        wd.addWord("runner");
+        wd.addWord("runs");
+        wd.addWord("add");
+        wd.addWord("adds");
+        wd.addWord("adder");
+        wd.addWord("addee");
+        wd.search("r.n");
+        wd.search("ru.n.e");
+        wd.search("add");
+        wd.search("add.");
+        wd.search("adde.");
+        wd.search(".an.");
+        wd.search("...s");
+        wd.search("....e.");
+        wd.search(".......");
+        wd.search("..n.r");
+
     }
 }
 

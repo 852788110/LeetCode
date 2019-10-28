@@ -17,18 +17,18 @@ public class Main {
     }*/
 
     //测试数组是值传递还是引用传递的方法
-    public  static void test1(int[] a){
-        a[0]=2;
+    public static void test1(int[] a) {
+        a[0] = 2;
     }
 
     //用于测试基础类型是引用传递还是值传递
-    public static void test2(float a){
-        a=3;
+    public static void test2(float a) {
+        a = 3;
     }
 
     //测试包装类型是否是值传递
-    public static void test3(Float a){
-        a=3f;
+    public static void test3(Float a) {
+        a = 3f;
     }
 
     public static void main(String[] args) {
@@ -469,7 +469,7 @@ public class Main {
         }*/
 
         /*char[][] board={
-                *//*{'x','x','x','x'},{'x','o','o','x'},{'x','x','o','x'},{'x','o','x','x'}*//*
+         *//*{'x','x','x','x'},{'x','o','o','x'},{'x','x','o','x'},{'x','o','x','x'}*//*
                 {'x','o','x','o','x','o'},{'o','x','o','x','o','x'},{'x','o','x','o','x','o'},{'o','x','o','x','o','x'}
         };
         Solve sl=new Solve();
@@ -672,7 +672,7 @@ public class Main {
         System.out.print(lrc.get(1)+" ");
         System.out.print(lrc.get(2)+" ");*/
 
-        WordDictionary1 wd=new WordDictionary1();
+       /* WordDictionary1 wd=new WordDictionary1();
         wd.addWord("ran");
         wd.addWord("rune");
         wd.addWord("runner");
@@ -690,8 +690,29 @@ public class Main {
         wd.search("...s");
         wd.search("....e.");
         wd.search(".......");
-        wd.search("..n.r");
+        wd.search("..n.r");*/
 
+       /*MyLinkedList ml=new MyLinkedList();
+       ml.addAtHead(1);
+       ml.addAtTail(3);
+       ml.addAtIndex(1,2);
+       ml.get(1);
+       ml.deleteAtIndex(1);
+       ml.get(1);*/
+
+        /*MyLinkedList mll = new MyLinkedList();
+        mll.addAtIndex(-1, 0);
+        mll.get(0);
+        mll.deleteAtIndex(-1);*/
+
+        ReplaceWords rw=new ReplaceWords();
+        List<String> dict=new ArrayList<>();
+        dict.add("cat");
+        dict.add("bat");
+        dict.add("rat");
+        String sentence="the cattle was rattled by the battery";
+        String ans=rw.replaceWords(dict,sentence);
+        System.out.println(ans);
     }
 }
 

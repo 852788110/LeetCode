@@ -705,14 +705,39 @@ public class Main {
         mll.get(0);
         mll.deleteAtIndex(-1);*/
 
-        ReplaceWords rw=new ReplaceWords();
+        /*ReplaceWords rw=new ReplaceWords();
         List<String> dict=new ArrayList<>();
         dict.add("cat");
         dict.add("bat");
         dict.add("rat");
         String sentence="the cattle was rattled by the battery";
         String ans=rw.replaceWords(dict,sentence);
-        System.out.println(ans);
+        System.out.println(ans);*/
+
+        /*MapSum ms=new MapSum();
+        ms.insert("a",3);
+        System.out.println(ms.sum("ap"));
+        ms.insert("app",3);
+        System.out.println(ms.sum("ap"));*/
+
+        /*MagicDictionary1 md=new MagicDictionary1();
+        String[] strs={
+                "hello","leetcode"
+        };
+        md.buildDict(strs);
+        System.out.println(md.search("hhlo"));
+        System.out.println(md.search("hell"));
+        System.out.println(md.search("hello"));*/
+
+        CamelMatch cm=new CamelMatch();
+        String pattern="CooP";
+        String[] queries={
+                "CompetitiveProgramming","CounterPick","ControlPanel"
+        };
+        List<Boolean> ans=cm.camelMatch(queries,pattern);
+        for (Boolean a:ans){
+            System.out.print(a+"  ");
+        }
     }
 }
 

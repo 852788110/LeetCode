@@ -1,5 +1,8 @@
 package com;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class TrieST<Value> {
     private static int R=256;
     private Node root;
@@ -46,5 +49,26 @@ public class TrieST<Value> {
         char c=key.charAt(d);
         x.next[c]=put(x.next[c],key,val,d+1);
         return x;
+    }
+    public Iterable<String> keys(){
+        return null;
+    }
+
+    public Iterable<String> keysWithPrefix(String pre){
+        Queue<String> q=new LinkedList<>();
+        collect(get(root,pre,0),pre,q);
+        return q;
+    }
+
+    private void collect(Node x, String pre, Queue<String> q){
+        if (x==null){
+            return;
+        }
+        if (x.val!=null){
+            q.add(pre);
+        }
+        for (char c=0;c<R;c++){
+            collect(x.next[c],pre+c,q);
+        }
     }
 }

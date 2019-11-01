@@ -729,7 +729,7 @@ public class Main {
         System.out.println(md.search("hell"));
         System.out.println(md.search("hello"));*/
 
-        CamelMatch cm=new CamelMatch();
+        /*CamelMatch cm=new CamelMatch();
         String pattern="CooP";
         String[] queries={
                 "CompetitiveProgramming","CounterPick","ControlPanel"
@@ -737,7 +737,40 @@ public class Main {
         List<Boolean> ans=cm.camelMatch(queries,pattern);
         for (Boolean a:ans){
             System.out.print(a+"  ");
-        }
+        }*/
+
+        /*int[] nums={
+                5,2,6,1
+        };
+        CountSmaller cs=new CountSmaller();
+        List<Integer> ans=cs.countSmaller(nums);
+        for (int t:ans){
+            System.out.print(t+" ");
+        }*/
+
+        /*int[] nums={
+                -2,5,-1
+        };
+        CountRangeSum crs=new CountRangeSum();
+        int ans=crs.countRangeSum(nums,-2,2);
+        System.out.println(ans);*/
+
+        /*int N=10,K=7;
+        KthGrammar kt=new KthGrammar();
+        System.out.println(kt.kthGrammar(N,K));*/
+
+        /*int[] nums={10,10,10,7,7,7,7,7,7,6,6,6};
+        int k=3;
+        CanPartitionKSubsets1 cs=new CanPartitionKSubsets1();
+        boolean ans=cs.canPartitionKSubsets(nums,k);
+        System.out.println(ans);*/
+
+        SolveNQueens solveNQueens=new SolveNQueens();
+        long start=System.currentTimeMillis();
+        int ans=solveNQueens.totalNQueens(15);
+        long end=System.currentTimeMillis();
+        System.out.println((end-start)/1000);
+        System.out.println(ans);
     }
 }
 

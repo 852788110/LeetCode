@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93ac78f-4a13-4ac7-8be7-c7f7ebdd0129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/CamelMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/MagicDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/MagicDictionary1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/MapSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BstToGst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CanPartitionKSubsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CanPartitionKSubsets1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CountRangeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CountSmaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/KthGrammar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/SolveNQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/SolveNQueens1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/ReplaceWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/ReplaceWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/TrieST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/TrieST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/TrieST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/TrieST.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TrieST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TrieST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +39,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="736" selection-start-line="736" selection-end-line="736" />
+            <state relative-caret-position="261">
+              <caret line="771" column="43" selection-start-line="771" selection-start-column="43" selection-end-line="771" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/CanPartitionKSubsets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/CanPartitionKSubsets1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SolveNQueens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/CamelMatch.java">
+        <entry file="file://$PROJECT_DIR$/src/com/SolveNQueens1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="406">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,6 +109,8 @@
       <find>o</find>
       <find>x</find>
       <find>[8],[7</find>
+      <find>stable</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,15 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Solve.java" />
-        <option value="$PROJECT_DIR$/src/com/EquationsPossible.java" />
-        <option value="$PROJECT_DIR$/src/com/AccountsMerge.java" />
-        <option value="$PROJECT_DIR$/src/com/SmallestStringWithSwaps.java" />
-        <option value="$PROJECT_DIR$/src/com/MaxLevelSum.java" />
-        <option value="$PROJECT_DIR$/src/com/MaxSumAfterPartitioning.java" />
-        <option value="$PROJECT_DIR$/src/com/CanVisitAllRooms.java" />
-        <option value="$PROJECT_DIR$/src/com/CalcEquation.java" />
-        <option value="$PROJECT_DIR$/src/com/CalcEquation1.java" />
         <option value="$PROJECT_DIR$/src/com/UF.java" />
         <option value="$PROJECT_DIR$/src/com/CanFinish.java" />
         <option value="$PROJECT_DIR$/src/com/FindOrder.java" />
@@ -133,14 +159,23 @@
         <option value="$PROJECT_DIR$/src/com/MapSum.java" />
         <option value="$PROJECT_DIR$/src/com/MagicDictionary.java" />
         <option value="$PROJECT_DIR$/src/com/MagicDictionary1.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/CamelMatch.java" />
+        <option value="$PROJECT_DIR$/src/com/NumArray.java" />
+        <option value="$PROJECT_DIR$/src/com/CountSmaller.java" />
+        <option value="$PROJECT_DIR$/src/com/CountRangeSum.java" />
+        <option value="$PROJECT_DIR$/src/com/BstToGst.java" />
+        <option value="$PROJECT_DIR$/src/com/KthGrammar.java" />
+        <option value="$PROJECT_DIR$/src/com/CanPartitionKSubsets.java" />
+        <option value="$PROJECT_DIR$/src/com/CanPartitionKSubsets1.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/SolveNQueens.java" />
+        <option value="$PROJECT_DIR$/src/com/SolveNQueens1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-114" />
-    <option name="y" value="302" />
+    <option name="x" value="570" />
+    <option name="y" value="53" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -150,6 +185,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,8 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,11 +333,20 @@
       <workItem from="1572164096623" duration="6916000" />
       <workItem from="1572266203078" duration="267000" />
       <workItem from="1572328011429" duration="13149000" />
+      <workItem from="1572415062803" duration="9316000" />
+      <workItem from="1572495554933" duration="615000" />
+      <workItem from="1572509293953" duration="627000" />
+      <workItem from="1572515680129" duration="3060000" />
+      <workItem from="1572588445086" duration="2446000" />
+      <workItem from="1572593436343" duration="2412000" />
+      <workItem from="1572596331355" duration="8903000" />
+      <workItem from="1572615551702" duration="1914000" />
+      <workItem from="1572623915833" duration="2762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340149000" />
+    <option name="totallyTimeSpent" value="372204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +360,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.26742426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.3068182" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.34469697" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -668,10 +712,28 @@
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>736</line>
+          <url>file://$PROJECT_DIR$/src/com/CountRangeSum.java</url>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="166" />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/CanPartitionKSubsets.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/CanPartitionKSubsets1.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/SolveNQueens.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/FindOrder.java</url>
@@ -696,107 +758,6 @@
     <SUITE FILE_PATH="coverage/LeetCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1568949664084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/MaxSumAfterPartitioning.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/MaxLevelSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CanVisitAllRooms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CalcEquation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/UF.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/CalcEquation1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CanFinish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="51" column="9" selection-start-line="43" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/FindOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/EdgeWeightedDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CloneGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/NetworkDelayTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-            <element signature="e#2777#2778#0" expanded="true" />
-            <element signature="e#2801#2802#0" expanded="true" />
-            <element signature="e#6382#6383#0" expanded="true" />
-            <element signature="e#6415#6416#0" expanded="true" />
-            <element signature="e#9122#9123#0" expanded="true" />
-            <element signature="e#9183#9184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/EventualSafeNodesSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#317#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/TwoColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1130,13 +1091,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Hello.java" />
     <entry file="file://$PROJECT_DIR$/src/com/MapSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-474">
@@ -1175,20 +1130,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/../网页.har">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CamelMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="736" selection-start-line="736" selection-end-line="736" />
+        <state relative-caret-position="-259">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CamelMatch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/NumArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="57">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1208" column="49" selection-start-line="1208" selection-start-column="43" selection-end-line="1208" selection-end-column="49" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KthGrammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BstToGst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CountRangeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CountSmaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CanPartitionKSubsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CanPartitionKSubsets1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="771" column="43" selection-start-line="771" selection-start-column="43" selection-end-line="771" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SolveNQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SolveNQueens1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

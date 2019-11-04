@@ -1,6 +1,7 @@
 import com.*;
 import sun.rmi.runtime.Log;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -765,12 +766,59 @@ public class Main {
         boolean ans=cs.canPartitionKSubsets(nums,k);
         System.out.println(ans);*/
 
-        SolveNQueens solveNQueens=new SolveNQueens();
+        /*SolveNQueens solveNQueens=new SolveNQueens();
         long start=System.currentTimeMillis();
         int ans=solveNQueens.totalNQueens(15);
         long end=System.currentTimeMillis();
         System.out.println((end-start)/1000);
-        System.out.println(ans);
+        System.out.println(ans);*/
+
+        /*String path="C:/test/Rick.txt";
+        List<String> ans=null;
+        try {
+            ans=TXTParseUtils.readTxtFile(path);
+        }catch (IOException e){
+            e.printStackTrace();
+        }*/
+        /*for (String str:ans){
+            System.out.println(str);
+        }*/
+        /*List<Integer> res=TXTParseUtils.encoding(ans);
+        for (Integer i:res){
+            System.out.print(res+" ");
+        }*/
+
+        /*int[] nums={
+                1,2,3
+        };
+        Subsets subsets=new Subsets();
+        List<List<Integer>> ans=subsets.subsets(nums);
+        for (List<Integer> s:ans){
+            for (Integer e:s){
+                System.out.print(e+" ");
+            }
+            System.out.println();
+        }*/
+
+        /*int n=4,k=2;
+        Combine cb=new Combine();
+        List<List<Integer>> ans=cb.combine(n,k);
+        for (List<Integer> s:ans){
+            for (int t:s){
+                System.out.print(t+" ");
+            }
+            System.out.println();
+        }*/
+
+        int k=3,n=7;
+        CombinationSum3 cs=new CombinationSum3();
+        List<List<Integer>> ans= cs.combinationSum3(k,n);
+        for (List<Integer> s:ans){
+            for (int t:s){
+                System.out.print(t+" ");
+            }
+            System.out.println();
+        }
     }
 }
 

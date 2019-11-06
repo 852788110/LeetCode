@@ -810,7 +810,7 @@ public class Main {
             System.out.println();
         }*/
 
-        int k=3,n=7;
+        /*int k=3,n=7;
         CombinationSum3 cs=new CombinationSum3();
         List<List<Integer>> ans= cs.combinationSum3(k,n);
         for (List<Integer> s:ans){
@@ -818,7 +818,26 @@ public class Main {
                 System.out.print(t+" ");
             }
             System.out.println();
-        }
+        }*/
+
+        /*int sum=0;
+        DivideBYNumber dn=new DivideBYNumber();
+        sum=dn.solution(4,1,10000);
+        System.out.println(sum);
+        sum=dn.solution(5,1,10000);
+        System.out.println(sum);
+        sum=dn.solution(60,1,10000);
+        System.out.println(sum);*/
+
+        /*GrayCode gc=new GrayCode();
+        List<Integer> ans=gc.grayCode(2);
+        for (Integer t:ans){
+            System.out.print(t+" ");
+        }*/
+
+        Partition partition=new Partition();
+        String s="aab";
+        partition.manachersAlgorithm(s);
     }
 }
 

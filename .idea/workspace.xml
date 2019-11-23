@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93ac78f-4a13-4ac7-8be7-c7f7ebdd0129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DivideBYNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/GetMaximumGold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/GrayCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CountArrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CountNumbersWithUniqueDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Exist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/GetPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeastInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/MaxLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/PermuteUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/RestoreIpAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/SolveSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/StoneGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/SubsetsWithDup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/CombinationSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/CombinationSum2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15694">
-              <caret line="839" selection-start-line="839" selection-end-line="839" />
+            <state relative-caret-position="16815">
+              <caret line="898" selection-start-line="898" selection-end-line="898" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,22 +52,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Partition.java">
+        <entry file="file://$PROJECT_DIR$/src/com/LeastInterval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/GetMaximumGold.java">
+        <entry file="file://$PROJECT_DIR$/src/com/StoneGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -91,18 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/EventualSafeNodes.java" />
-        <option value="$PROJECT_DIR$/src/com/EventualSafeNodesSolution.java" />
-        <option value="$PROJECT_DIR$/src/com/Graph.java" />
-        <option value="$PROJECT_DIR$/src/com/Cycle.java" />
-        <option value="$PROJECT_DIR$/src/com/TwoColor.java" />
-        <option value="$PROJECT_DIR$/src/com/IsBipartite.java" />
-        <option value="$PROJECT_DIR$/src/com/FindMinHeightTrees.java" />
-        <option value="$PROJECT_DIR$/src/com/FindMinHeightTrees2.java" />
-        <option value="$PROJECT_DIR$/src/com/FindMinHeightTrees3.java" />
-        <option value="$PROJECT_DIR$/src/com/FindMinHeightTrees4.java" />
-        <option value="$PROJECT_DIR$/src/com/ShortestAlternatingPaths.java" />
-        <option value="$PROJECT_DIR$/src/com/ShortestAlternatingPaths1.java" />
         <option value="$PROJECT_DIR$/src/com/CountLetter.java" />
         <option value="$PROJECT_DIR$/src/com/FindItinerary.java" />
         <option value="$PROJECT_DIR$/src/com/PeekingIterator.java" />
@@ -139,13 +131,25 @@
         <option value="$PROJECT_DIR$/src/com/DivideBYNumber.java" />
         <option value="$PROJECT_DIR$/src/com/CombinationSum.java" />
         <option value="$PROJECT_DIR$/src/com/GrayCode.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Partition.java" />
         <option value="$PROJECT_DIR$/src/com/GetMaximumGold.java" />
+        <option value="$PROJECT_DIR$/src/com/CombinationSum2.java" />
+        <option value="$PROJECT_DIR$/src/com/SubsetsWithDup.java" />
+        <option value="$PROJECT_DIR$/src/com/CountArrangement.java" />
+        <option value="$PROJECT_DIR$/src/com/PermuteUnique.java" />
+        <option value="$PROJECT_DIR$/src/com/CountNumbersWithUniqueDigits.java" />
+        <option value="$PROJECT_DIR$/src/com/GetPermutation.java" />
+        <option value="$PROJECT_DIR$/src/com/RestoreIpAddresses.java" />
+        <option value="$PROJECT_DIR$/src/com/Exist.java" />
+        <option value="$PROJECT_DIR$/src/com/MaxLength.java" />
+        <option value="$PROJECT_DIR$/src/com/SolveSudoku.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/LeastInterval.java" />
+        <option value="$PROJECT_DIR$/src/com/StoneGame.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-79" />
     <option name="y" value="55" />
     <option name="width" value="1373" />
@@ -157,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +184,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,12 +324,16 @@
       <workItem from="1572838502256" duration="4000" />
       <workItem from="1572854638832" duration="7752000" />
       <workItem from="1572915396971" duration="4127000" />
-      <workItem from="1573000436929" duration="885000" />
+      <workItem from="1573000436929" duration="6666000" />
+      <workItem from="1573008223579" duration="5245000" />
+      <workItem from="1573132383546" duration="12270000" />
+      <workItem from="1573209573314" duration="9272000" />
+      <workItem from="1573565764548" duration="3639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397957000" />
+    <option name="totallyTimeSpent" value="434164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,9 +346,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.34166667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.21818182" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.34469697" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -747,10 +754,46 @@
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>839</line>
+          <url>file://$PROJECT_DIR$/src/com/GetPermutation.java</url>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="197" />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/RestoreIpAddresses.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>869</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>883</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>898</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeastInterval.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeastInterval.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="240" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/FindOrder.java</url>
@@ -770,124 +813,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((java.util.LinkedList)queue).get(4)" custom="java.util.LinkedList" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1568949664084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ShortestAlternatingPaths1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;field#digraph#0;class#ShortestAlternatingPaths1#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/IndexMinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-            <element signature="e#5600#5601#0" expanded="true" />
-            <element signature="e#5633#5634#0" expanded="true" />
-            <element signature="e#8340#8341#0" expanded="true" />
-            <element signature="e#8401#8402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/FindItinerary.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/CountLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LNR.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/MyCircularDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2146">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-            <element signature="e#2428#2429#0" expanded="true" />
-            <element signature="e#2454#2455#0" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2580#2581#0" expanded="true" />
-            <element signature="e#2693#2694#0" expanded="true" />
-            <element signature="e#2719#2720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/NestedIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-569">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PeekingIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/NestedInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/WordDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1232,10 +1167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/CombinationSum2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15694">
-          <caret line="839" selection-start-line="839" selection-end-line="839" />
+        <state relative-caret-position="96">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1244,7 +1179,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Partition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="513">
           <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1254,8 +1189,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/GetMaximumGold.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="57">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CountArrangement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SubsetsWithDup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PermuteUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CountNumbersWithUniqueDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GetPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/RestoreIpAddresses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Exist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/MaxLength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SolveSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16815">
+          <caret line="898" selection-start-line="898" selection-end-line="898" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/LeastInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/StoneGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
     </entry>

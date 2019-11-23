@@ -835,9 +835,69 @@ public class Main {
             System.out.print(t+" ");
         }*/
 
-        Partition partition=new Partition();
+        /*Partition partition=new Partition();
         String s="aab";
-        partition.manachersAlgorithm(s);
+        partition.manachersAlgorithm(s);*/
+
+        /*int[] candidate={
+                10,1,2,7,6,1,5
+        };
+        int target=8;
+        CombinationSum2 cs=new CombinationSum2();
+        cs.combinationSum2(candidate,target);*/
+
+        /*int[] nums={
+                1,2,2
+        };
+        SubsetsWithDup sw=new SubsetsWithDup();
+        sw.subsetsWithDup(nums);*/
+
+        /*int N=2;
+        CountArrangement ca=new CountArrangement();
+        ca.countArrangement(N);*/
+
+        /*int n=5;
+        CountNumbersWithUniqueDigits cn=new CountNumbersWithUniqueDigits();
+        int ans=cn.countNumbersWithUniqueDigits(n);
+        System.out.println(ans);*/
+
+        /*int n=3,k=2;
+        GetPermutation gp=new GetPermutation();
+        String ans=gp.getPermutation(n,k);
+        System.out.println(ans);*/
+
+        /*String s="0000";
+        RestoreIpAddresses ri=new RestoreIpAddresses();
+        List<String> ans=ri.restoreIpAddresses(s);
+        for (String t:ans){
+            System.out.println(t);
+        }*/
+
+        /*char[][] board={
+                *//*{'A','B','C','E'},
+                {'S','F','C','S'},
+                {'A','D','E','E'}*//*
+                {'A'}
+        };
+        String word="AB";
+        Exist exist=new Exist();
+        boolean ans=exist.exist(board,word);
+        System.out.println(ans);*/
+
+        /*List<String> arr=new ArrayList<>();
+        arr.add("jnfbyktlrqumowxd");
+        arr.add("mvhgcpxnjzrdei");
+        MaxLength ml=new MaxLength();
+        int ans=ml.maxLength(arr);*/
+
+        char[] tasks={
+               /* 'A','A','A','A','A','A','B','C','D','E','F','G'*/
+                'B','F','J','J','H'
+        };
+        int n=36;
+        LeastInterval ls=new LeastInterval();
+        int ans=ls.leastInterval(tasks,n);
+        System.out.println(ans);
     }
 }
 
